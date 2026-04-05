@@ -1,4 +1,4 @@
-# Nexus Ticket Management System - README
+# Ticket Management System - README
 
 **Status:** ✅ **READY TO USE**  
 **Last Updated:** April 5, 2026  
@@ -37,38 +37,20 @@ npm run dev
 
 Read these in order:
 
-1. **STARTUP_GUIDE.md** ← START HERE
-   - How to run the system
-   - Troubleshooting common issues
-   - Health checks
 
-2. **QUICK_START.md**
+1. **QUICK_START.md**
    - 1-page reference card
    - Common mistakes
    - Quick commands
 
-3. **USER_MANUAL.md**
+2. **USER_MANUAL.md**
    - Complete user guide
    - Steps for each role (customer/staff/admin)
    - Ticket workflows
    - Best practices
 
-4. **SYSTEM_SUMMARY.md**
-   - Complete system overview
-   - Tech stack
-   - Database schema
-   - API endpoints
 
-5. **SETUP_DEPLOYMENT.md**
-   - Production deployment
-   - Environment setup
-   - Docker configuration
-   - Database migration
 
-6. **OPENAI_MIGRATION.md**
-   - AI model configuration
-   - Already implemented
-   - Cost analysis
 
 ---
 
@@ -170,13 +152,8 @@ D:\TicketManagement\
 
 ```
 README.md                    ← You are here
-STARTUP_GUIDE.md            ← How to start the system
 QUICK_START.md              ← Quick reference card
 USER_MANUAL.md              ← Complete user guide
-SYSTEM_SUMMARY.md           ← System overview
-SETUP_DEPLOYMENT.md         ← Production deployment
-OPENAI_MIGRATION.md         ← AI configuration
-verify_openai_config.py     ← Configuration checker
 ```
 
 ---
@@ -253,16 +230,6 @@ d:\TicketManagement\backend\venv\Scripts\Activate.ps1
 | OpenAI Integration | ✅ Configured | April 5, 2026 |
 | Documentation | ✅ Complete | April 5, 2026 |
 
----
-
-## 🎓 Next Steps
-
-1. **Start the system** (see STARTUP_GUIDE.md)
-2. **Test with test credentials** (see above)
-3. **Read USER_MANUAL.md** for features
-4. **Explore the dashboard**
-5. **Create some tickets**
-6. **Try different roles**
 
 ---
 
@@ -274,21 +241,4 @@ d:\TicketManagement\backend\venv\Scripts\Activate.ps1
 - **AI questions:** See OPENAI_MIGRATION.md
 - **Want to know if something works?** See SYSTEM_SUMMARY.md verification checklist
 
----
 
-## 🚀 Ready to Go!
-
-Everything is set up. Just:
-
-1. Open **STARTUP_GUIDE.md**
-2. Copy the commands to your terminals
-3. Open http://localhost:5173
-4. Start creating tickets!
-
-**Happy ticketing! 🎉**
-
----
-
-**System Version:** 1.0  
-**Deployment Status:** Production Ready  
-**Last Updated:** April 5, 2026
