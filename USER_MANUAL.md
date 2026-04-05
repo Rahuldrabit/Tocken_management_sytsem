@@ -1,10 +1,6 @@
-# Nexus Ticket Management System - User Manual
+#Ticket Management System - User Manual
 
-**Last Updated:** April 5, 2026  
-**System Version:** 1.0  
-**Status:** Production Ready
 
----
 
 ## 📋 Table of Contents
 
@@ -615,36 +611,7 @@ Available insights:
 - ✅ Admins can access everything
 - ✅ Permissions enforced on backend
 
----
 
-## 📞 Support & Contact
-
-### Getting Help
-
-1. **For System Issues:**
-   - Check Troubleshooting section
-   - Review error messages in browser console (F12)
-   - Check backend server logs
-
-2. **For Feature Requests:**
-   - Create ticket with "Feature Request" type
-   - Provide detailed use case
-   - Submit to Admin team
-
-3. **For Technical Support:**
-   - Email: support@nexus.local
-   - Available: Monday-Friday, 9AM-6PM
-   - Response time: < 4 hours
-
----
-
-## 📝 Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | April 5, 2026 | Initial release, full RBAC, AI classification |
-| 0.9 | April 1, 2026 | Beta testing, basic features |
-| 0.5 | March 15, 2026 | Alpha development |
 
 ---
 
