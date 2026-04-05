@@ -1,4 +1,4 @@
-# Nexus Ticket System - Quick Reference Card
+# Ticket System - Quick Reference Card
 
 ## 🚀 Quick Start (30 seconds)
 
