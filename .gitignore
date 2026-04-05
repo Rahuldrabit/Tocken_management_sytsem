@@ -1,0 +1,79 @@
+# =============================================================================
+# .gitignore for TicketManagement project
+# =============================================================================
+
+# --- Environment / Secrets ---
+.env
+*.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Django ---
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+backend/*.log
+backend/celerybeat-schedule
+
+# --- Node ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Local runtime files ---
+*.log
+*.pid
+
+# --- Project docs and one-off verification scripts ---
+COMMENTS_FEATURE_VERIFIED.md
+COMMENTS_FIX_EXPLANATION.md
+DELIVERY_REPORT.md
+DOCUMENTATION_INDEX_STAFF_FEATURES.md
+DOCUMENTATION_INDEX.md
+END_TO_END_TEST.md
+IMPLEMENTATION_COMPLETE.md
+OPENAI_MIGRATION.md
+REQUESTED_vs_DELIVERED.md
+SETUP_DEPLOYMENT.md
+STAFF_FEATURES_TESTING.md
+STARTUP_GUIDE.md
+SYSTEM_SUMMARY.md
+test_comments_fix.py
+test_complete_workflow.py
+test_staff_features.py
+verify_openai_config.py
+verify_staff_api.py
